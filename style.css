@@ -1,0 +1,178 @@
+body {
+    margin:  0;
+    padding: 0;
+    display: flex;
+}
+
+/* ESTILO HOME */
+
+.containerGlobal {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    height: 25vh;
+    width:  100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container img{
+    height: 150px;
+}
+
+.container li {
+    height: 6vh;
+    width:  20vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+@font-face {
+    font-family: 'NixieOne';
+    src: url(Fontes/NixieOne.ttf) format('truetype');
+    font-weight: normal;
+    font-style:  normal;
+}
+
+.buttonEstilo {
+    height: 6vh;
+    width:  8vw;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    font-family: 'NixieOne';
+    font-size: 15px;
+    color: black;
+    background-color: #E9E9E9;
+    cursor: pointer;
+}
+
+
+.container2 {
+    height: 75vh;
+    width:  100vw;
+}
+
+/* ESTILO CADASTRO */
+
+.container3 {
+    height: 100vh;
+    width:  45vw;
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 img {
+    height: 150px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.container3 h3 {
+    font-family: 'NixieOne';
+    font-size: 25px;
+    color: #4E4E4E;
+    width: 45vw;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.container4 {
+    height: 100vh;
+    width:  55vw;
+    background-color: #687A62;
+}
+
+.container5 {
+    width:  45vw;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+/* div responsável pelas inputs do cadastro */
+.div{
+    height: 5vh;
+    width: 45vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* div1 responsável pelos botões do cadastro */
+.div1{
+    height: 10vh;
+    width:  25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.divCont5 {
+    font-family: 'NixieOne';
+    font-size: 15px;
+    height: 5vh;
+    width:  18vw;
+    border: 2px solid #D1D1D1;
+    border-radius: 5px;
+}
+
+.div1Cont5 {
+    font-family: 'NixieOne';
+    font-size: 15px;
+    color: #4E4E4E;
+    height: 5.4vh;
+    width: 12vw;
+    border: 2px solid #D1D1D1;
+    border-radius: 5px;
+}
+
+.div1-1Cont5 {
+    font-family: 'NixieOne';
+    font-size: 15px;
+    height: 5vh;
+    width: 24.2vw;
+    border: 2px solid #D1D1D1;
+    border-radius: 5px;
+}
+
+.div2Cont5 {
+    font-family: 'NixieOne';
+    font-size: 15px;
+    color: #4E4E4E;
+    height: 6vh;
+    width:  18.6vw;
+    border: 2px solid #D1D1D1;
+    border-radius: 5px;
+}
+
+.div3Cont5 {
+    font-family: 'NixieOne';
+    font-size: 15px;
+    height: 5vh;
+    width: 39.2vw;
+    border: 2px solid #D1D1D1;
+    border-radius: 5px;
+}
+
+.div3-3Cont5 {
+    font-family: 'NixieOne';
+    font-size: 15px;
+    height: 5vh;
+    width: 18vw;
+    border: 2px solid #D1D1D1;
+    border-radius: 5px;
+}
+
+
+input::placeholder{
+    color: black;
+}
