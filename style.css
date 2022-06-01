@@ -2,19 +2,23 @@ body {
     margin:  0;
     padding: 0;
     display: flex;
+    scroll-behavior: smooth;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #4E4E4E;
+    /* fonte Trebuchet teste */
 }
 
-/* ESTILO HOME */
+/* COMEÇO ESTILO HOME */
 
 .containerGlobal {
-    height: 100vh;
+    width:  100%;
     display: flex;
     flex-direction: column;
 }
 
 .container {
     height: 25vh;
-    width:  100vw;
+    width:  100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,23 +45,225 @@ body {
 
 .buttonEstilo {
     height: 6vh;
-    width:  8vw;
+    width:  8.5vw;
     border: 2px solid transparent;
     border-radius: 20px;
     font-family: 'NixieOne';
     font-size: 15px;
     color: black;
     background-color: #E9E9E9;
+    transition: 0.35s;
     cursor: pointer;
 }
 
-
-.container2 {
-    height: 75vh;
-    width:  100vw;
+.buttonEstilo:hover {
+    color: #fff;
+    font-size: 16px;
+    background-color: #CB8F7A;
 }
 
-/* ESTILO CADASTRO */
+.buttonEstilo2 {
+    height: 6vh;
+    width:  8.5vw;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    font-family: 'NixieOne';
+    font-size: 15px;
+    color: black;
+    background-color: #E9E9E9;
+    transition: 0.35s;
+    cursor: pointer;
+}
+
+.buttonEstilo2:hover {
+    color: #fff;
+    font-size: 16px;
+    background-color: #687A62;
+}
+
+.containerHistoria_FotoArt {
+    height: 75vh;
+    width:  100%;
+    display: flex;
+}
+
+.containerHistoria {
+    height: 75vh;
+    width:  55vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerHistoria h3 {
+    font-size: 32px;
+    color: #4E4E4E;
+    padding-top:  60px;
+    padding-left: 50px;
+}
+
+.containerHistoria p {
+    font-size: 22px;
+    color: #4E4E4E;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.containerHistoria span {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+.containerFotoArt {
+    height: 75vh;
+    width:  45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid orange; */
+}
+
+.titulo1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+
+}
+
+.titulo1 p {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.catalogo {
+    width:  100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+    /* border: 2px solid rebeccapurple; */
+}
+
+.desenhos {
+    height: 500px;
+    width:  500px;
+    background-color: #4E4E4E;
+}
+
+.desenhos img {
+    height: 500px;
+    width: 500px;
+    cursor: pointer;
+}
+
+.design {
+    height: 500px;
+    width: 500px;
+    background-color: #4E4E4E;
+}
+
+.design img {
+    height: 500px;
+    width: 500px;
+    cursor: pointer;
+}
+
+.catalogo2 {
+    width:  100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    /* border: 2px solid green; */
+}
+
+.fotografia {
+    height: 500px;
+    width: 500px;
+    background-color: #4E4E4E;
+}
+
+.fotografia img {
+    height: 500px;
+    width: 500px;
+    cursor: pointer;
+}
+
+.transparent {
+    height: 500px;
+    width: 500px;
+    background-color: transparent; 
+}
+
+.trabalharJuntos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #4E4E4E;
+    text-decoration: none;
+}
+
+.trabalharJuntos p {
+    color: #4E4E4E;
+    font-size: 22px;
+    padding-top: 25px;
+}
+
+.trabalharJuntos a {
+    color: #4E4E4E;
+    font-size: 32px;
+    padding-top: -15px;
+    padding-bottom: 25px;
+    text-decoration: none;
+}
+
+footer {
+    height: 41vh;
+    width: 100%;
+    display: flex;
+    color:  #4E4E4E;
+    background-color: #E9E9E9;
+    justify-content: space-between;
+}
+
+.divEsquerdaFooter {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.divEsquerdaFooter h2 {
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.divEsquerdaFooter p {
+    font-size: 18px;
+}
+
+.divMeioFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 145px;
+}
+
+.divMeioFooter p {
+    margin-top: -10px;
+}
+
+footer img {
+    height: 110px;
+    padding-top: 15px;
+    padding-right:  10px;
+}
+
+/* FINAL ESTILO HOME */
+
+/* COMEÇO ESTILO CADASTRO */
 
 .container3 {
     height: 100vh;
@@ -171,8 +377,9 @@ body {
     border: 2px solid #D1D1D1;
     border-radius: 5px;
 }
-
-
-input::placeholder{
-    color: black;
+ 
+.input::placeholder{
+    color: #4E4E4E;
 }
+
+/* FINAL ESTILO CADASTRO */
