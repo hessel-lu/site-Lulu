@@ -18,21 +18,21 @@
         <h3>Cadastro</h3>
         <div class="container5">
             <div class="div">
-                <input class="divCont5" type="text" placeholder=" Primeiro nome">
-                <input class="divCont5" type="text" placeholder=" Último nome">
+                <input  id="primeiroNome" class="divCont5" type="text" placeholder=" Primeiro nome">
+                <input  id="ultimoNome"   class="divCont5" type="text" placeholder=" Último nome">
             </div> 
 
             <br>
 
             <div class="div">
-                <input class="div1Cont5" type="date">
-                <input class="div1-1Cont5" type="text" placeholder=" CEP">
+                <input id="dtNascimento" class="div1Cont5" type="date">
+                <input id="CEP" class="div1-1Cont5" type="text" placeholder=" CEP">
             </div>  
 
             <br>
             
             <div class="div">
-                <select class="div2Cont5" id="selectProfissao">
+                <!-- <select class="div2Cont5" id="selectProfissao">
                     <option value="">- Profissão -</option>
                     <option value="1">Admistração</option>
                     <option value="2">Direito</option>
@@ -44,8 +44,10 @@
                     <option value="8">Psicologia</option>
                     <option value="9">TI</option>
                     <option value="10">Outros</option>
-                </select>
-                <select class="div2Cont5" id="selectGenero">
+                </select> -->
+                <input id="profissao" class="divCont5" type="text" placeholder=" Profissão">
+
+                <!-- <select class="div2Cont5" id="selectGenero">
                     <option value="">- Gênero -</option>
                     <option value="11">Não informar</option>
                     <option value="22">Masculino</option>
@@ -56,20 +58,22 @@
                     <option value="77">Agênero</option>
                     <option value="88">Pangênero</option>
                     <option value="99">Outros</option>
-                </select>
+                </select> -->
+                <input id="genero" class="divCont5" type="text" placeholder=" Gênero">
+
             </div>
 
             <br>
 
             <div class="div">
-                <input class="div3Cont5" type="email" placeholder=" @email.com">
+                <input id="email" class="div3Cont5" type="email" placeholder=" @email.com">
             </div>
 
             <br>
 
             <div class="div">
-                <input class="div3-3Cont5" type="password" placeholder=" Senha">
-                <input class="div3-3Cont5" type="password" placeholder=" Confirmar senha">
+                <input id="senha" class="div3-3Cont5" type="password" placeholder=" Senha">
+                <input id="confirSenha" class="div3-3Cont5" type="password" placeholder=" Confirmar senha">
             </div>
 
             <br>
