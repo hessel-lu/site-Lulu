@@ -492,12 +492,11 @@ footer img {
 
 .introducaoDoisDesenhos {
     height: 15vh;
-    width:  100%;
+    width:  30%;
     display: flex;
+    border-bottom: 5px solid #CB8F7A;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-    border: 2px solid red;
 }
 
 .introducaoDoisDesenhos div {
@@ -510,7 +509,6 @@ footer img {
     width:  100%;
     display: flex;
     flex-direction: row;
-    border: 2px solid red;
 }
 
 .desenhoV {
@@ -539,4 +537,44 @@ footer img {
     width:  300px;
 }
 
+.desenhoHorizontal {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.catalogoDesenhoHorizontal {
+    height: 165vh;
+    width:  100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.desenhoH {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desenhoH img {
+    height: 500px;
+}
+
+.desenhoHDetalhes {
+    height: 75vh;
+    width:  100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.desenhoHDetalhes img {
+    height: 300px;
+    width:  300px;
+}
 /* FINAL ESTILO DESENHOS */
