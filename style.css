@@ -467,6 +467,7 @@ footer img {
     flex-direction: row;
 }
 
+/* introdução título usada em degin e fotografia */
 .introducaoDesenhos .introducaoTitulo {
     height: 50vh;
     width:  50%;
@@ -476,11 +477,14 @@ footer img {
     padding-left: 50px;
 }
 
+/* introdução texto usada em degin e fotografia */
 .introducaoDesenhos .introducaoTexto {
     height: 50vh;
     width:  50%;
     display: flex; 
-    padding-top:  60px;
+    font-size: 20px;
+    padding-top:  72px;
+    padding-right: 60px;
 }
 
 .desenhoVertical {
